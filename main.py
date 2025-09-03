@@ -43,15 +43,15 @@
 # // lists
 
 
-a = [12,13,14,15,16,1,12,12,13,14,34.5]
+# a = [12,13,14,15,16,1,12,12,13,14,34.5]
 
-# //1st way sing index:
+# # //1st way sing index:
 
 
-for i in range(len(a)):
-    print(a[i])
+# for i in range(len(a)):
+#     print(a[i])
 
-# //2nd way directly on values:
+# # //2nd way directly on values:
 
-for i in a:
-    print(i)
+# for i in a:
+#     print(i)
