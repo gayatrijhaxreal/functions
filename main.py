@@ -55,3 +55,13 @@
 
 # for i in a:
 #     print(i)
+
+# print(dir(list))
+l=[1,2,3,4,5]
+l[0]=10
+
+l.append(6)
+
+l.insert(1,7)
+
+print(l)
