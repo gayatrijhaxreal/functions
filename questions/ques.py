@@ -62,3 +62,19 @@ for i in l:
         
 
 print(f"largest {largest} ,second largest {sec_largest}")
+
+"""check if the list is sorted or not """
+
+
+a=[1,3,5,6]
+
+
+for i in range(len(a)-1):
+    if a[i] < a[i+1]:
+        continue
+    else:
+        print("your list is not sorted ")
+        break
+
+else:
+    print("your list is sorted")
