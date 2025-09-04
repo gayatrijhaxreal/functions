@@ -46,4 +46,19 @@ for i in range(len(l)):
 
 print(f" your larg number is :{gretest} at indext {index} ")
 
+"""find the second largest number and its index too:"""
 
+l = [12,15,34,56,43,67,87,54,88,99,776,5544,876]
+
+largest = l[0]
+sec_largest = l[0]
+
+
+
+for i in l:
+    if i > largest:
+        sec_largest = largest
+        largest = i
+        
+
+print(f"largest {largest} ,second largest {sec_largest}")
