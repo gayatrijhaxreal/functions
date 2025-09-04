@@ -1,16 +1,49 @@
-"""Questions of list"""
+# """Questions of list"""
 
-"""Print positive and negative elements of an List ."""
+# """Print positive and negative elements of an List ."""
 
-l = [-45, 67, 12, -68, -69,34]
+# l = [-45, 67, 12, -68, -69,34]
 
-print("positive elements are :")
-for i in l:
-    if i >=0:
-        print(i)
+# print("positive elements are :")
+# for i in l:
+#     if i >=0:
+#         print(i)
 
-print("negative element are :")
+# print("negative element are :")
 
-for i in l :
-    if i < 0:
-        print(i)
+# for i in l :
+#     if i < 0:
+#         print(i)
+
+
+# """ mean of list element """
+
+# l = [1,2,113,4,5,6,7,8]
+
+# sum = 0
+
+# for i in l :
+#     sum = sum+i
+
+# print(sum)
+
+# print(sum/len(l))
+
+
+"""find the greatest element and print its index too"""
+
+l =[12,46,14,19,128,6,13]
+
+
+gretest =l[0]
+index = 0 
+
+
+for i in range(len(l)):
+    if l[i]> gretest:
+        gretest = l[i]
+        index = i
+
+print(f" your larg number is :{gretest} at indext {index} ")
+
+
