@@ -78,3 +78,12 @@
 
 # else:
 #     print("your list is sorted")
+
+
+# // tupple:
+
+a = [1,3,2,3,4,5]
+
+a[0]= 12
+print(a)
+print(type(a))
