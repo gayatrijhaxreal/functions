@@ -57,14 +57,14 @@
 #     print(i)
 
 # print(dir(list))
-l=[1,2,3,4,5]
-l[0]=10
+# l=[1,2,3,4,5]
+# l[0]=10
 
-l.append(6)
+# l.append(6)
 
-l.insert(1,7)
+# l.insert(1,7)
 
-print(l)
+# print(l)
 
 # // tupple:
 
@@ -91,9 +91,26 @@ print(l)
 
 # // set
 
-s = {1,2,3,4,5}
-print(s)
+# s = {1,2,3,4,5}
+# print(s)
 
+# // set traversing
+
+# a = {1,2,3,4,5}
+
+# for i in a :
+#     print(i)
+
+# // set methods
+
+# a.remove(2)
+# print(a)
 
 # // dictonary
 
+# d ={1:"hello",2 :56}
+
+# print(type(d))
+# d[1]=100
+# d[3]=59
+# print(d)
