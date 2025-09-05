@@ -65,3 +65,35 @@ l.append(6)
 l.insert(1,7)
 
 print(l)
+
+# // tupple:
+
+# a = [1,3,2,3,4,5,5,5.5,print(),"hello"]
+
+# # a[0]= 12
+# # print(a)
+# # print(type(a))
+
+# # for i in range(len(a)) :
+# #     print(a[i])
+
+# index = a.index(5)
+# print(index)
+
+# count = a.count(5)
+
+# print(count)
+
+
+# a,b,c,d,e=(1,2,3,4,5)
+
+# print(e)
+
+# // set
+
+s = {1,2,3,4,5}
+print(s)
+
+
+# // dictonary
+
