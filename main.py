@@ -115,17 +115,34 @@
 # d[3]=59
 # print(d)
 
-a = int(input("tell your number :-"))
+# a = int(input("tell your number :-"))
 
-try:
-    print(10/a)
-# except ZeroDivisionError:
+# try:
+#     print(10/a)
+# # except ZeroDivisionError:
+# except Exception as err:
+#     print( f"sorry your number cannot be divided by zero {err}")
+# else:
+#     print("good there is no exception")
+
+# finally:
+#     print("i will run no matter what")
+
+# print("ok i have done  the division")
+  
+
+age = int(input("tell your age:"))
+
+try :
+    if age < 10 or age >18:
+       raise ValueError ("your age must be between 10 and 18")
+
+    else:
+        print("welcome to the club")
+
 except Exception as err:
-    print( f"sorry your number cannot be divided by zero {err}")
-else:
-    print("good there is no exception")
+    print(f"an error occured as {err}")
 
-finally:
-    print("i will run no matter what")
 
-print("ok i have done  the division")
+
+print("the club will start soon")
